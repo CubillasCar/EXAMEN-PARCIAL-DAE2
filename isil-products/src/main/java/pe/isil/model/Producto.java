@@ -15,8 +15,8 @@ import javax.persistence.*;
 public class Producto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "categoria_id")
-    private Integer categoriaId;
+    @Column(name = "producto_id")
+    private Integer productoId;
 
     private String sku;
 
